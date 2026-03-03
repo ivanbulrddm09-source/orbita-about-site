@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Орбита — мета социальная сеть</title>
+  <meta name="description" content="Орбита — мета социальная сеть: профиль, лента, сообщения, сообщества и сервисы в едином пространстве.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="./index.html" aria-label="Орбита">
+        <img src="./orbita-logo.png" alt="Орбита">
+        <span>Орбита</span>
+      </a>
+
+      <nav class="menu" aria-label="Навигация">
+        <a class="active" href="./index.html" aria-current="page">О нас</a>
+        <a href="./news.html">Новости</a>
+        <a href="./more.html">Ещё</a>
+      </nav>
+
+      <a class="header-btn" href="#faq">Зарегистрироваться</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="shell">
+        <div class="hero-card reveal">
+          <div class="hero-stage" aria-hidden="true">
+            <div class="hero-shot hero-shot-1">
+              <img src="./card1.png" alt="">
+            </div>
+            <div class="hero-shot hero-shot-2">
+              <img src="./card2.png" alt="">
+            </div>
+            <div class="hero-shot hero-shot-3">
+              <img src="./card3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section">
+      <div class="shell">
+        <h2 class="section-title reveal">Почему Орбита</h2>
+
+        <div class="orbit-features">
+          <article class="orbit-item reveal">
+            <div class="orbit-circle orbit-circle-1" aria-hidden="true">
+              <img src="./why-1.png" alt="">
+            </div>
+            <h3>Безопасное общение</h3>
+            <p>Сквозное шифрование, защищенные сессии и контроль приватности помогают держать переписки и данные под защитой.</p>
+          </article>
+
+          <article class="orbit-item reveal">
+            <div class="orbit-circle orbit-circle-2" aria-hidden="true">
+              <img src="./why-2.png" alt="">
+            </div>
+            <h3>ИИ-помощник</h3>
+            <p>Умный ассистент помогает с навигацией по приложению, действиями в разделах и базовыми задачами даже офлайн.</p>
+          </article>
+
+          <article class="orbit-item reveal">
+            <div class="orbit-circle orbit-circle-3" aria-hidden="true">
+              <img src="./why-3.png" alt="">
+            </div>
+            <h3>Все сервисы в одном месте</h3>
+            <p>Лента, сообщения, профиль, медиа и дополнительные инструменты объединены в единую экосистему без лишних переключений.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section roadmap-section">
+      <div class="shell">
+        <h2 class="section-title reveal">Карта развития 2026</h2>
+
+        <div class="roadmap reveal">
+          <p class="roadmap-date" id="roadmapDate">Февраль 2026</p>
+
+          <div class="roadmap-track" id="roadmapTrack" role="slider" tabindex="0" aria-label="Линия развития 2026" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0">
+            <div class="roadmap-line"></div>
+
+            <button type="button" class="roadmap-point active" data-index="0" style="left: 0%" aria-label="Февраль 2026"></button>
+            <button type="button" class="roadmap-point" data-index="1" style="left: 10%" aria-label="Март 2026"></button>
+            <button type="button" class="roadmap-point" data-index="2" style="left: 20%" aria-label="Апрель 2026"></button>
+            <button type="button" class="roadmap-point" data-index="3" style="left: 30%" aria-label="Май 2026"></button>
+            <button type="button" class="roadmap-point" data-index="4" style="left: 40%" aria-label="Июнь 2026"></button>
+            <button type="button" class="roadmap-point" data-index="5" style="left: 50%" aria-label="Июль 2026"></button>
+            <button type="button" class="roadmap-point" data-index="6" style="left: 60%" aria-label="Август 2026"></button>
+            <button type="button" class="roadmap-point" data-index="7" style="left: 70%" aria-label="Сентябрь 2026"></button>
+            <button type="button" class="roadmap-point" data-index="8" style="left: 80%" aria-label="Октябрь 2026"></button>
+            <button type="button" class="roadmap-point" data-index="9" style="left: 90%" aria-label="Ноябрь 2026"></button>
+            <button type="button" class="roadmap-point" data-index="10" style="left: 100%" aria-label="Декабрь 2026"></button>
+
+            <div class="roadmap-thumb" id="roadmapThumb" aria-hidden="true"></div>
+          </div>
+
+          <article class="roadmap-info" id="roadmapInfo">
+            <h3 id="roadmapTitle">Бета-старт платформы</h3>
+            <p id="roadmapText">Запуск базовой версии Орбиты: профиль, лента, чаты и первые закрытые сообщества.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq-wrap">
+      <div class="shell simple-faq reveal">
+        <h2>F.A.Q</h2>
+
+        <article class="faq-item">
+          <button>
+            Что такое Орбита?
+            <span>+</span>
+          </button>
+          <p>Орбита — мета социальная сеть, где профиль, контент, сообщения и сервисы работают как единая экосистема.</p>
+        </article>
+
+        <article class="faq-item">
+          <button>
+            Как зарегистрироваться?
+            <span>+</span>
+          </button>
+          <p>Нажмите кнопку «Зарегистрироваться» в шапке, укажите почту и подтвердите вход кодом из письма.</p>
+        </article>
+
+        <article class="faq-item">
+          <button>
+            Можно ли вести сообщество и публиковать контент?
+            <span>+</span>
+          </button>
+          <p>Да. Можно создавать страницы, публиковать посты, управлять комментариями и отслеживать активность аудитории.</p>
+        </article>
+
+        <article class="faq-item">
+          <button>
+            Как защищены мои данные?
+            <span>+</span>
+          </button>
+          <p>Доступны настройки приватности, контроль видимости профиля и расширенные механизмы защиты аккаунта.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <span>© 2026 Орбита</span>
+      <div>
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Поддержка</a>
+        <a href="#">Правила</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
